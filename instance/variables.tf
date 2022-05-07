@@ -21,3 +21,7 @@ variable "sg_name" {
 variable "ingress_rules" {
   description = "value of the ingress rules"
 }
+
+variable "egress_rules" {
+  description = "value of the egress rules"
+}
